@@ -1,1 +1,1 @@
-# app_techWord
+# TechWord
