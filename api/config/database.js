@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const connectDatabase = () => {
   mongoose.set('strictQuery', false);
   mongoose
-    .connect(process.env.DB_LOCAL_URI, {
+    .connect(process.env.MONGODB_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       // strictQuery: false,

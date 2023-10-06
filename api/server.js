@@ -2,7 +2,7 @@ const app = require('./app');
 const dotenv = require('dotenv');
 const connectDatabase = require('./config/database.js');
 //*Setting up config file
-dotenv.config({ path: 'api/config/config.env' });
+dotenv.config({ path: 'api/config/.env' });
 
 //*Connecting to DB
 connectDatabase();
