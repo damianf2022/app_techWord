@@ -4,6 +4,7 @@
   "description": "eCommerce  full stack",
   "main": "server.js",
   "scripts": {
+    "build":"node api/server",
     "start": "node api/server",
     "dev": "nodemon api/server",
     "prod": "nodemon api/server",
