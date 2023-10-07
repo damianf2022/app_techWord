@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const connectDatabase = async () => {
   try {
     mongoose.set('strictQuery', false);
-    const connection = await mongoose.connect(process.env.DB_LOCAL_URI, {
+    const connection = await mongoose.connect("mongodb+srv://fdamian:fdamian@cluster0.apehqqr.mongodb.net/techapp", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       // strictQuery: false,

@@ -17,7 +17,7 @@ async function startServer() {
     });
   } catch (error) {
     console.error('Error:', error);
-    process.exit(1); // Termina la aplicación con un código de error
+    // process.exit(1); // Termina la aplicación con un código de error
   }
 }
 
